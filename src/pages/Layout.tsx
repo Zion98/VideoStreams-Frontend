@@ -1,9 +1,9 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import movieHeader from "../assets/movie.svg";
-import SignUpForm from "../components/SignupForm";
-import VerifyPage from "./VerifyPage";
+// import SignUpForm from "../components/SignupForm";
+// import VerifyPage from "./VerifyPage";
 
 const Dashboard = () => {
   return (

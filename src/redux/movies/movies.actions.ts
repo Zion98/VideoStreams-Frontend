@@ -67,7 +67,7 @@ export const bookmarkMovies = (moviesObj: {
         // dispatch(fetchAllMoviesSuccess(res.data.data));
       })
       .catch((error) => {
-        const errorMessage = error.message;
+        // const errorMessage = error.message;
         console.log(error)
         // dispatch(fetchAllMoviesFailure(errorMessage));
       });
